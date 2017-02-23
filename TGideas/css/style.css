@@ -2,11 +2,12 @@ body, dl, dd, ul, ol, h1, h2, h3, h4, h5, h6, p, form {
     margin: 0;
 }
 body {
+    width:auto !important; 
+    width:800px; 
     min-width: 500px;
     max-width: 800px;
     background: rgb(14,23,43);
     margin: 0 auto;
-    _width: expression(this.scrollWidth > 800 ? "800px" : (this.scrollWidth < 500? "500px" : "auto"))    
 }
 .g-bg .bg1 {
     background: url(../images/pc/BG_01.png) no-repeat center top;
