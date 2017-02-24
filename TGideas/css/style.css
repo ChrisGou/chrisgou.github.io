@@ -66,6 +66,10 @@ body {
     margin-left: 20px;
     float: left;
 }
+.top {
+    height: 0;
+    z-index: 10;
+}
 .top span {
     color: #FFF;
     font-size: 14px;
@@ -73,6 +77,9 @@ body {
     margin-top: 20px;
     margin-left: 190px;
     float: left;
+}
+.banner {
+    z-index: 9;
 }
 .banner_img {
     background: url(../images/pc/TOP.png) no-repeat;
