@@ -57,20 +57,21 @@ body {
     display: inline-block;
     background: url(../images/pc/logo.png) no-repeat;
     margin-top: 25px;
+    float: left;
 }
 .g-main .daoju {
     width: 254px;
     height: 54px;
     display: inline-block;
     background: url(../images/pc/daojucheng.png) no-repeat;
-    margin-bottom: 33px;
+    margin-top: 63px;
     margin-left: 20px;
+    float: left;
 }
 .top span {
     color: #FFF;
     font-size: 14px;
     display: inline-block;
-    vertical-align: top;
     margin-top: 20px;
     margin-left: 190px;
 }
