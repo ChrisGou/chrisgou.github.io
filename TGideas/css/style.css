@@ -3,8 +3,6 @@ body, dl, dd, ul, ol, h1, h2, h3, h4, h5, h6, p, form {
 }
 a:hover {
     text-decoration: none;
-    -webkit-filter: brightness(1.2);
-    filter: brightness(1.2);
 }
 body {
     width:auto !important; 
