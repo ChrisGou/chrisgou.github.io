@@ -67,8 +67,8 @@ body {
     float: left;
 }
 .top {
-    height: 0;
-    position: absolute;
+    height: 0;/*解决阿卡丽图片块元素ie下下移*/
+    position: absolute;/*解决图片层级问题*/
 }
 .top span {
     color: #FFF;
