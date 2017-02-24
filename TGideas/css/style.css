@@ -5,12 +5,19 @@ a:hover {
     text-decoration: none;
 }
 body {
-    width:auto !important; 
-    width:1920px; 
-    min-width: 1024px;
-    max-width: 1920px;
     background: rgb(14,23,43);
     margin: 0 auto;
+}
+min {
+    width:auto !important; 
+    min-width: 1024px;
+    max-width: 1920px;
+    width:1024px;
+}
+max {
+    width:auto !important; 
+    max-width: 1920px;
+    width:1920px;
 }
 .g-wrap{
     position: relative;
@@ -65,7 +72,6 @@ body {
     margin-top: 63px;
     margin-left: 20px;
     float: left;
-    position: absolute;
 }
 .top {
     height: 0;/*解决阿卡丽图片块元素ie下下移*/
