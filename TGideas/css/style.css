@@ -144,9 +144,8 @@ body {
     float: right;
     margin-right: 32px;
     display: inline;
-    height: 90px;
-    line-height: 90px;
-    vertical-align: middle;
+    /*height: 90px;
+    line-height: 90px;*/
 }
 .title_hero_name span{
     font-size: 45px;
@@ -167,7 +166,9 @@ body {
     font-family: "MicrosoftYaHei";
     color: rgb(138, 72, 250);;
     font-weight: bold;
-    vertical-align: middle;    
+    vertical-align: middle;
+    height: 90px;
+    line-height: 90px;    
 }
 .title_hero_sale i {
     font-size: 90px;
@@ -175,6 +176,8 @@ body {
     color: rgb(255, 216, 0);
     font-style: normal;
     vertical-align: middle;
+    height: 90px;
+    line-height: 90px;
 }
 .parts ul {
     width: 960px;
