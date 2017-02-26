@@ -146,6 +146,7 @@ body {
     display: inline;
     height: 90px;
     line-height: 90px;
+    vertical-align: middle;
 }
 .title_hero_name span{
     font-size: 45px;
