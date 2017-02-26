@@ -125,11 +125,12 @@ body {
 }
 .part1 .title_img {
     background: url(../images/pc/hero1.png) no-repeat;
-    width: 81px;
-    height: 81px;
+    width: 80px;
+    height: 80px;
     /*float: left;*/
     position: absolute;
     left: 30px;
+    margin: -1px;
 }
 .title_hero {
     width: 858px;
