@@ -166,16 +166,14 @@ body {
     font-family: "MicrosoftYaHei";
     color: rgb(138, 72, 250);;
     font-weight: bold;
-    line-height: 90px;
+    vertical-align: middle;    
 }
 .title_hero_sale i {
     font-size: 90px;
     font-family: "Impact";
     color: rgb(255, 216, 0);
-    line-height: 90px;
     font-style: normal;
     vertical-align: middle;
-    margin-top: -3px;
 }
 .parts ul {
     width: 960px;
