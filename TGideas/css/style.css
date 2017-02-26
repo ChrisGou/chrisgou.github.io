@@ -129,6 +129,7 @@ body {
     height: 80px;
     /*float: left;*/
     position: absolute;
+    left: 0;
 }
 .title_hero {
     width: 858px;
