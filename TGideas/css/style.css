@@ -1,26 +1,34 @@
-body, dl, dd, ul, ol, h1, h2, h3, h4, h5, h6, p, form {
+*{
     margin: 0;
+    padding: 0;
+}
+ul, ol, dl {
+    list-style: none;
 }
 a:hover {
     text-decoration: none;
 }
+.fl {
+    float: left;
+}
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
 body {
     background: rgb(14,23,43);
-    margin: 0 auto;
-}
-min {
-    width:auto !important; 
-    min-width: 1024px;
-    max-width: 1920px;
-    width:1024px;
-}
-max {
-    width:auto !important; 
-    max-width: 1920px;
-    width:1920px;
 }
 .g-wrap{
     position: relative;
+    width:auto !important; 
+    min-width: 1024px;
+    max-width: 1920px;
+    width:1920px;
+    margin: 0 auto;
 }
 .g-bg .bg1 {
     background: url(../images/pc/BG_01.png) no-repeat center top;
@@ -99,3 +107,132 @@ max {
     margin-left: 343px;
     margin-top: -45px;
 }
+
+.parts {
+    width: 960px;
+    margin: 0 auto;
+    margin-top: 20px;
+    /*background: pink;*/
+}
+.part1 {
+    height: 480px;
+}
+.part1 .title {
+    width: 940px;
+    margin: 0 auto;
+    padding-top: 55px;
+    /*background: rgba(0, 0, 0, 0.2);*/
+}
+.part1 .title_img {
+    background: url(../images/pc/hero1.png) no-repeat;
+    width: 80px;
+    height: 80px;
+    float: left;
+}
+.title_hero {
+    width: 860px;
+    height: 80px;
+    margin-left: 80px;
+}
+.title_hero_name {
+    float: left;
+    margin-left: 15px;
+}
+.title_hero_sale {
+    float: right;
+    margin-right: 32px;
+}
+.title_hero_name span{
+    font-size: 45px;
+    font-family: "MicrosoftYaHei";
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    line-height: 80px;
+}
+.title_hero_name span i {
+    font-size: 45px;
+    font-family: "MicrosoftYaHei";
+    color: rgb(138, 72, 250);
+    line-height: 80px;
+    font-style: normal;
+}
+.title_hero_sale span{
+    font-size: 14px;
+    font-family: "MicrosoftYaHei";
+    color: rgb(138, 72, 250);;
+    font-weight: bold;
+    line-height: 80px;
+}
+.title_hero_sale i {
+    font-size: 90px;
+    font-family: "Impact";
+    color: rgb(255, 216, 0);
+    line-height: 80px;
+    font-style: normal;
+    vertical-align: top;
+}
+.parts ul {
+    width: 960px;
+    margin: 0 auto;
+    padding: 20px 0 66px 0;
+    height: 250px;
+    /*background: gray;*/
+}
+.part1 ul li {
+    width: 148px;
+    height: 250px;
+    margin-left: 10px;
+    cursor: pointer;
+    position: relative;
+    /*background: rgba(76, 58, 144, 0.251);    */
+}
+.part1 .hero_img {
+    width: 148px;
+    height: 194px;
+    text-align: center;
+}
+.hero_weizhi {
+    background: rgba(76, 58, 144, 0.251);
+}
+.hero_gailun {
+    background: url(../images/pc/kennen.png) no-repeat;
+}
+.part1 .hero_weizhi span {
+  font-size: 90px;
+  font-family: "MFBanHei_Noncommercial";
+  color: rgba(122, 65, 221, 0.831);
+  line-height: 194px;
+  font-weight: bold;
+}
+.part1 .hero_gailun span {
+    font-size: 12px;
+    font-family: "MicrosoftYaHei";
+    color: rgb(255, 255, 255);
+    position: relative;
+    display: block;
+    top: 132px;
+    color: #FFF;
+}
+.part1 .hero_gailun span.price{
+    font-size: 14px;
+    color: #ffd600;
+}
+.hero_buy{
+    width: 146px;
+    height: 43px;
+    position: absolute;
+    bottom: 0;
+    left: 1px;
+    display: inline-block;
+    background: url(../images/pc/buy.png) no-repeat;
+}
+.hero_buy:hover{
+    background: url(../images/pc/buyHover.png) no-repeat;
+}
+.fenge {
+    width: 960px;
+    height: 9px;
+    background: url(../images/pc/fenge.png) no-repeat;
+}
+
+
