@@ -127,10 +127,8 @@ body {
     background: url(../images/pc/hero1.png) no-repeat;
     width: 80px;
     height: 80px;
-    /*float: left;*/
-    position: absolute;
+    position: absolute;/*兼容IE6*/
     left: 30px;
-    margin: -1px;
 }
 .title_hero {
     width: 858px;
@@ -146,6 +144,8 @@ body {
     float: right;
     margin-right: 32px;
     display: inline;
+    height: 90px;
+    line-height: 90px;
 }
 .title_hero_name span{
     font-size: 45px;
@@ -166,15 +166,15 @@ body {
     font-family: "MicrosoftYaHei";
     color: rgb(138, 72, 250);;
     font-weight: bold;
-    line-height: 80px;
+    line-height: 90px;
 }
 .title_hero_sale i {
     font-size: 90px;
     font-family: "Impact";
     color: rgb(255, 216, 0);
-    line-height: 80px;
+    line-height: 90px;
     font-style: normal;
-    vertical-align: top;
+    vertical-align: middle;
 }
 .parts ul {
     width: 960px;
