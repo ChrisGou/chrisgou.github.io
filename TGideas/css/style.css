@@ -129,7 +129,7 @@ body {
     height: 80px;
     /*float: left;*/
     position: absolute;
-    left: 0;
+    left: 30px;
 }
 .title_hero {
     width: 858px;
@@ -139,10 +139,12 @@ body {
 .title_hero_name {
     float: left;
     margin-left: 15px;
+    display: inline;
 }
 .title_hero_sale {
     float: right;
     margin-right: 32px;
+    display: inline;
 }
 .title_hero_name span{
     font-size: 45px;
