@@ -240,8 +240,25 @@ body {
     height: 9px;
     background: url(../images/pc/fenge.png) no-repeat;
 }
-
 .bottom {
+    display:table;
+    background:pink;
+    width: 960px;
+    height: 470px;
+    _position:relative;
+overflow:hidden;
+}
+.bottom .subwrap {
+    vertical-align:middle;
+display:table-cell;
+_position:absolute;
+_top:50%;
+}
+.bottom ul {
+    _position:relative;
+_top:-50%;
+}
+/*.bottom {
     width: 960px;
     height: 470px;
     margin: 0 auto;
@@ -251,7 +268,7 @@ body {
     vertical-align: middle;
 }
 .bottom ul{
-    
+    */
 }
 
 
