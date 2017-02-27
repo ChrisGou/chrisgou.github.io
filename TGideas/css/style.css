@@ -245,18 +245,19 @@ body {
     background:pink;
     width: 960px;
     height: 470px;
-    _position:relative;
-overflow:hidden;
+    *position:relative; /*针对IE的hack*/
 }
 .bottom .subwrap {
-    vertical-align:middle;
-display:table-cell;
-_position:absolute;
-_top:50%;
+    display: table-cell;
+    vertical-align: middle;
+    *position:absolute; /*针对IE的hack*/
+    *top:50%;
 }
 .bottom ul {
-    _position:relative;
-_top:-50%;
+    *position:relative; /*针对IE的hack*/
+    *top:-50%;
+    margin:0 auto;
+    width:200px;
 }
 /*.bottom {
     width: 960px;
