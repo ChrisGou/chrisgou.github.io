@@ -241,4 +241,22 @@ body {
     background: url(../images/pc/fenge.png) no-repeat;
 }
 
-
+.bottom {
+    width: 960px;
+    height: 470px;
+    margin: 0 auto;
+    text-align: center;
+    background: pink;
+}
+.bottom:after {
+    content: '';
+    display: inline-block;
+    vertical-align: middle;
+    height: 100%;
+}
+.bottom ul{
+    display: inline-block;
+    vertical-align: middle;
+    *display: inline;
+    *zoom: 1
+}
