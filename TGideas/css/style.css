@@ -275,7 +275,7 @@ body {
     color: #ffd600;
     vertical-align: middle;
 }
-/*.bottom a.info {
+.bottom a.info {
     font-size: 12px;
     height: 24px;
     line-height: 24px;
@@ -287,7 +287,7 @@ body {
     background-color: #9052fb;
     cursor: pointer;
     border: 0;
-}*/
+}
 
 
 
