@@ -260,3 +260,12 @@ body {
     *display: inline;
     *zoom: 1
 }
+.bottom .clear{
+    width: 0;
+    font-size: 0;
+    height: 100%;
+    display: inline-block;
+    *display: inline;
+    *zoom: 1;
+    vertical-align: middle;
+}
