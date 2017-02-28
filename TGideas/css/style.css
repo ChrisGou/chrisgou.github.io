@@ -245,6 +245,7 @@ body {
     width: 960px;
     height: 470px;
     margin: 0 auto;
+    text-align: center;
     *position:relative; /*针对IE的hack*/
 }
 .bottom .subwrap {
