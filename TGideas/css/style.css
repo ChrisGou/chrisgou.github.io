@@ -300,7 +300,11 @@ body {
 
 .footer {
     text-align: center;
-    height: 156px;;
+    height: 156px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
 }
 .footer_wrap{
     padding: 40px 0 0;
