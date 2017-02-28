@@ -258,7 +258,7 @@ body {
 .bottom ul {
     *position:relative; /*针对IE的hack*/
     *top:-50%;
-    *left:-50px;
+    *left:-50%;
 }
 .bottom span.role {
     font-size: 38px;
