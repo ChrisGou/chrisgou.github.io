@@ -253,11 +253,12 @@ body {
     text-align: center;
     *position:absolute; /*针对IE的hack*/
     *top:50%;
-    margin: 0 auto;
+    *left:50%;
 }
 .bottom ul {
     *position:relative; /*针对IE的hack*/
     *top:-50%;
+    *left:-50px;
     margin:0 auto;
 }
 .bottom span.role {
