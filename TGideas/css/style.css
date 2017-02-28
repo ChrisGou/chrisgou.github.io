@@ -7,6 +7,7 @@ ul, ol, dl {
 }
 a:hover {
     text-decoration: none;
+    opacity: 0.7;
 }
 .fl {
     float: left;
@@ -234,6 +235,7 @@ body {
 }
 .hero_buy:hover{
     background: url(../images/pc/buyHover.png) no-repeat;
+    opacity: 1;
 }
 .fenge {
     width: 960px;
@@ -290,7 +292,22 @@ body {
     cursor: pointer;
     border: 0;
     border-radius: 2px;
-    behavior: url(PIE.htc);
 }
 
-
+.footer {
+    text-align: center;
+    height: 156px;;
+}
+.footer_wrap{
+    padding: 40px 0 0;
+}
+.footer p{
+    color:#786ea5;
+    line-height: 24px;
+    font-size: 10px;
+}
+.footer a{
+    color: #786ea5;
+    font-size: 12px;
+    text-decoration: none;
+}
