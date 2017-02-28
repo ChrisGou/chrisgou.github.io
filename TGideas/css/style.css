@@ -94,6 +94,10 @@ body {
     margin-left: 190px;
     float: left;
 }
+.top span a {
+    color: #FFF;
+    text-decoration: none;
+}
 .banner_img {
     background: url(../images/pc/TOP.png) no-repeat;
     width: 904px;
