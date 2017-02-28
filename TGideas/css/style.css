@@ -278,6 +278,17 @@ body {
     color: rgb(190, 190, 190);
     vertical-align: middle;
 }
+.bottom span.index {
+    display: inline-block;
+    vertical-align: middle;
+    width:16px;
+    height: 16px;
+    line-height: 16px;
+    border: 0;
+    border-radius: 8px;
+    margin-right: 2px;
+    background: rgb(142, 115, 242);
+}
 .bottom span.tips {
     color: #ffd600;
     vertical-align: middle;
